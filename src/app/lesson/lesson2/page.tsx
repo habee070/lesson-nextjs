@@ -7,6 +7,8 @@ export default function Lesson2Page() {
     <>
     บทเรียนที่ 2
     <Lesson1Page initialValue={10} />
+    <hr />
+    <Lesson1Page initialValue={50} />
     </>
   )
 }

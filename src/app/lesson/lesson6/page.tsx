@@ -4,7 +4,7 @@ import Card from '@/components/ui/Card';
 import Footer from '@/components/ui/Footer';
 import Modal from '@/components/ui/Modal';
 import Navbar from '@/components/ui/Navbar';
-import React, { useState } from 'react'
+import { useState } from 'react';
 
 export default function Lesson6Page() {
 

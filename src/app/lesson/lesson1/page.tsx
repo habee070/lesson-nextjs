@@ -11,7 +11,6 @@ type CounterProps = {
 
 export default function Lesson1Page({ initialValue = 0 }: CounterProps) {
     const [count, setCount] = useState(initialValue);
-
     useEffect(() => {
         console.log('Counter Updated:', count)
     }, [count])

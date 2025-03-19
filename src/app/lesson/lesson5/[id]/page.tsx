@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 async function getProduct(id: string) {
     try {
         const res = await fetch(`https://fakestoreapi.com/products/${id}`);
-
+        
         if (!res.ok) {
             console.error("Product not found:", id);
             return null; // ดักจับ error ถ้า API ส่ง 404
