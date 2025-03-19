@@ -2,7 +2,7 @@
 //1️⃣ React Components: Functional Components, Props, State
 // components/Counter.tsx
 "use client"; // ใช้ใน Next.js 15 สำหรับ Components ที่มี State และ Effect
-//
+
 import React, { use, useEffect, useState } from 'react'
 
 type CounterProps = {
